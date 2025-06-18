@@ -22,20 +22,21 @@
     <!-- Tailwind style -->
     <link rel="stylesheet" href="output.css" />
     <!-- end Tailwind -->
-    <title>ផ្ទះសៀវភៅ</title>
+    <title>ផ្ទះសៀវភៅ​ - BOOK HOUSE</title>
   </head>
-  <body class="bg-gray-100 dark:bg-neutral-800 font-medium font-sans">
+  <body class="bg-gray-100 dark:bg-neutral-900 font-medium font-sans">
     <!-- Navbar -->
     <header
       class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3 dark:bg-neutral-700"
     >
       <nav
-        class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between"
+        class="max-w-[85rem] w-full h mx-auto px-4 flex flex-wrap basis-full items-center justify-between"
       >
         <a
-          class="sm:order-1 flex-none text-2xl font-sans dark:text-white focus:outline-hidden focus:opacity-80"
+          class="sm:order-1  flex-none text-2xl font-sans  dark:text-white focus:outline-hidden focus:opacity-80"
           href="index.html"
-          >ផ្ទះសៀវភៅ</a
+          ><img src="../img/logo.png" alt="logo" class="h-12 hs-dark-mode-active:hidden block hs-dark-mode">
+          <img src="../img/logow.png" alt="logow" class="h-12 hs-dark-mode-active:block hidden hs-dark-mode"></a
         >
         <div class="sm:order-3 flex items-center gap-x-2">
           <button
@@ -84,7 +85,7 @@
             type="button"
             class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
           >
-            <i class="fa-solid fa-right-to-bracket"></i>
+            <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
           </button>
           <button
             type="button"
@@ -168,7 +169,7 @@
             >
             <a
               class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-white dark:hover:text-neutral-500 dark:focus:text-neutral-500"
-              href="about-us.html"
+              href="about-us.html "
               >អំពីយើង</a
             >
             <a
@@ -187,9 +188,15 @@
     <!-- End Slider -->
 
     <!-- body -->
-<section>
+<section class=" sm:text-left ">
   <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
+      <div>
+        <img
+          src="../img/library.png"
+          class="rounded"
+          alt="library top-0"
+        /></div>
       <div>
         <div class="max-w-lg md:max-w-none">
           <h2 class="text-2xl font-sans dark:text-neutral-50 text-gray-900 sm:text-3xl">
@@ -204,10 +211,10 @@
 គោលបំណងចម្បង ដែលយើងខ្ញុំបង្កើតវេបសាយលក់សៀវភៅអនឡាញដ៏ធំនេះឡើង ផ្ទះសៀវភៅ BOOK HOUSE គឺចង់ឃើញប្រជាជនខ្មែរយើងមានសៀវភៅអានគ្រប់គ្នា សៀវភៅទៅដល់គ្រប់ទីកន្លែង ដែលគ្រាន់តែលោកអ្នកបញ្ជា​ទិញ​ពី​វេប​សាយ​យើងខ្ញុំឥឡូវនេះ ពេលនោះក្រុមការងារខ្ញុំនឹងរៀបសៀវភៅចំជូនដល់អតិថិជនភ្លាមៗទៅតាមតំបន់នានាបានយ៉ាងងាយ និងលឿនរហ័ស។ ម្យ៉ាងវិញទៀត ក៏ជាការរួមចំណែកក្នុងការលើកកម្ពស់ការអានសៀវភៅនៅកម្ពុជាយើង​ផងដែរ។
           </p>
           <hr class="mt-10 text-gray-700 dark:text-neutral-50">
-          <h2 class=" text-xl mt-5 text-neutral-900 ftext-justify font-sans dark:text-neutral-50">
+          <h2 class=" text-xl mt-5 text-neutral-900 ftext-justify font-sans dark:text-neutral-50 sm:text-left">
             ទំនាក់ទំនងមកយើងខ្ញុំ៖
           </h2>
-          <p class="mt-2 text-gray-700 font-sans dark:text-neutral-50">
+          <p class="mt-2 text-gray-700 font-sans dark:text-neutral-50 sm:text-left">
            <i class="fa-solid fa-location-dot w-4"></i>  ផ្ទះ១៦៨ ផ្លូវសុភមង្គល សង្កាត់រីករាយ ខណ្ឌសុខសាន្ត រាជធានីភ្នំពេញ 
           </p>
           <p class="mt-2 text-gray-700 font-sans dark:text-neutral-50">
@@ -220,13 +227,8 @@
         </div>
       </div>
 
-      <div>
-        <img
-          src="../img/library.png"
-          class="rounded"
-          alt="library"
-        />
-      </div>
+      
+
     </div>
   </div>
 </section> 
@@ -323,20 +325,7 @@
                   >ទំនាក់ទំនង</a
                 >
               </li>
-              <li>
-                <a
-                  href="privacy-policy.html"
-                  class="text-gray-500 hover:text-primary dark:text-white transition-colors"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li>
-                <a
-                  href="termsofervice.html"
-                  class="text-gray-500 hover:text-primary dark:text-white transition-colors"
-                  >Terms of Service</a
-                >
-              </li>
+             
             </ul>
           </div>
           <!-- Column 4 -->
@@ -352,14 +341,14 @@
               </li>
               <li>
                 <a
-                  href="mailto:hello@bookly.com"
+                  href="mailto:info@bookhouse.com.kh"
                   class="text-gray-500 hover:text-primary dark:text-white transition-colors flex items-center justify-center md:justify-start gap-2"
-                  ><i class="fa-solid fa-envelope w-4"></i>info@housebook.com.kh</a
+                  ><i class="fa-solid fa-envelope w-4"></i>info@bookhouse.com.kh</a
                 >
               </li>
               <li>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+85512345678"
                   class="text-gray-500 hover:text-primary dark:text-white transition-colors flex items-center justify-center md:justify-start gap-2"
                   ><i class="fa-solid fa-phone w-4"></i>+855 (012) 345-678</a
                 >
@@ -367,8 +356,8 @@
             </ul>
           </div>
         </div>
-        <div class="text-center pt-8 border-t border-gray-200 text-gray-500">
-          <p>© 2025 Book House. All Rights Reserved.</p>
+        <div class=" pt-2 border-t border-gray-200 text-gray-500 dark:text-neutral-200">
+          <p>© ២០២៥ រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ៖​ <a href="index.html"> ផ្ទះសៀវភៅ</a></p>
         </div>
       </div>
     </footer>

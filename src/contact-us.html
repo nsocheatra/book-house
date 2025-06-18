@@ -22,20 +22,21 @@
     <!-- Tailwind style -->
     <link rel="stylesheet" href="output.css" />
     <!-- end Tailwind -->
-    <title>ផ្ទះសៀវភៅ</title>
+    <title>ផ្ទះសៀវភៅ​ - BOOK HOUSE</title>
   </head>
-  <body class="bg-gray-100 dark:bg-neutral-800 font-medium font-sans">
+  <body class="bg-gray-100 dark:bg-neutral-900 font-medium font-sans">
     <!-- Navbar -->
     <header
       class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3 dark:bg-neutral-700"
     >
       <nav
-        class="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between"
+        class="max-w-[85rem] w-full h mx-auto px-4 flex flex-wrap basis-full items-center justify-between"
       >
         <a
-          class="sm:order-1 flex-none text-2xl font-sans dark:text-white focus:outline-hidden focus:opacity-80"
+          class="sm:order-1  flex-none text-2xl font-sans  dark:text-white focus:outline-hidden focus:opacity-80"
           href="index.html"
-          >ផ្ទះសៀវភៅ</a
+          ><img src="../img/logo.png" alt="logo" class="h-12 hs-dark-mode-active:hidden block hs-dark-mode">
+          <img src="../img/logow.png" alt="logow" class="h-12 hs-dark-mode-active:block hidden hs-dark-mode"></a
         >
         <div class="sm:order-3 flex items-center gap-x-2">
           <button
@@ -84,7 +85,7 @@
             type="button"
             class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
           >
-            <i class="fa-solid fa-right-to-bracket"></i>
+            <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
           </button>
           <button
             type="button"
@@ -168,7 +169,7 @@
             >
             <a
               class="font-medium text-gray-600 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 dark:text-white dark:hover:text-neutral-500 dark:focus:text-neutral-500"
-              href="about-us.html"
+              href="about-us.html "
               >អំពីយើង</a
             >
             <a
@@ -181,12 +182,27 @@
       </nav>
     </header>
     <!-- End Navbar -->
-
-    <!-- Slider -->
-
-    <!-- End Slider -->
-
     <!-- body -->
+<section class="bg-neutral-200 dark:bg-neutral-900">
+  <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">ផ្ញើរអ៊ីមែលមកកាន់យើងខ្ញុំ</h2>
+      <p class="text-center dark:text-neutral-50 mb-4">យើងចង់ឮពីអ្នក! មិនថាអ្នកមានសំណួរអំពីសេវាកម្មរបស់យើង ពត៌មាន ឬអ្វីផ្សេងទៀតទេ <br>ក្រុមការងាររបស់យើងត្រៀមខ្លួនជាស្រេចដើម្បីឆ្លើយសំណួររបស់អ្នកទាំងអស់។
+
+</p>
+      <form action="#" class="space-y-8">
+          <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">អ៊ីម៉ែល</label>
+              <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="example@gmail.com" required>
+          </div>
+          
+          <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">សារ</label>
+              <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="បញ្ចូលសាររបស់អ្នកនៅទីនេះ..."></textarea>
+          </div>
+          <button type="submit" class="py-3 px-5 items-center bg-neutral-700 text-sm font-medium text-center dark:bg-neutral-50 dark:text-neutral-900 text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">ផ្ញើរទៅកាន់</button>
+      </form>
+  </div>
+</section>
 
     
      <!-- End cbody -->
@@ -282,20 +298,7 @@
                   >ទំនាក់ទំនង</a
                 >
               </li>
-              <li>
-                <a
-                  href="privacy-policy.html"
-                  class="text-gray-500 hover:text-primary dark:text-white transition-colors"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li>
-                <a
-                  href="termsofervice.html"
-                  class="text-gray-500 hover:text-primary dark:text-white transition-colors"
-                  >Terms of Service</a
-                >
-              </li>
+              
             </ul>
           </div>
           <!-- Column 4 -->
@@ -311,14 +314,14 @@
               </li>
               <li>
                 <a
-                  href="mailto:hello@bookly.com"
+                  href="mailto:info@bookhouse.com.kh"
                   class="text-gray-500 hover:text-primary dark:text-white transition-colors flex items-center justify-center md:justify-start gap-2"
-                  ><i class="fa-solid fa-envelope w-4"></i>info@housebook.com.kh</a
+                  ><i class="fa-solid fa-envelope w-4"></i>info@bookhouse.com.kh</a
                 >
               </li>
               <li>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+85512345678"
                   class="text-gray-500 hover:text-primary dark:text-white transition-colors flex items-center justify-center md:justify-start gap-2"
                   ><i class="fa-solid fa-phone w-4"></i>+855 (012) 345-678</a
                 >
@@ -326,8 +329,8 @@
             </ul>
           </div>
         </div>
-        <div class="text-center pt-8 border-t border-gray-200 text-gray-500">
-          <p>© 2025 Book House. All Rights Reserved.</p>
+        <div class=" pt-2 border-t border-gray-200 text-gray-500 dark:text-neutral-200">
+          <p>© ២០២៥ រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ៖​ <a href="index.html"> ផ្ទះសៀវភៅ</a></p>
         </div>
       </div>
     </footer>
